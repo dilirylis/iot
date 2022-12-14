@@ -17,7 +17,7 @@ except Exception:
    print("Failed to connect. Check network")
    exit()
 
-ser = get_connection('COM9')
+ser = get_connection('COM11')
 
 values = []
 unique_id = 444
