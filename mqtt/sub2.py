@@ -49,7 +49,7 @@ client.subscribe(f"lab/{unique_id}/photo/min")
 client.subscribe(f"lab/{unique_id}/photo/instant")
 
 print("Subscribing")
-ser = get_connection('COM7')
+ser = get_connection('COM8')
 
 time.sleep(600)
 client.disconnect()
